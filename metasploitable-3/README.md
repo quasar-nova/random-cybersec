@@ -150,7 +150,7 @@ meterpreter > upload CTF/Metasploitable3/uploads/linpeas.sh
 [*] uploaded   : /home/quasar/CTF/Metasploitable3/uploads/linpeas.sh -> linpeas.sh
 ```
 
-Now, running it inside the machine gives a lot of information about the machine.
+Now, running it inside the machine gives a lot of information about the it.
 
 ```
 meterpreter > shell
